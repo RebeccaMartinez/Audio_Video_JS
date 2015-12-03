@@ -18,7 +18,7 @@ function initialize () {
   masvel.addEventListener("click",aumentarVel);
   menosvel.addEventListener("click",disminuirVel);
   mute.addEventListener("click",mutear);
-  navbar.addEventListener("change",audioBar,false);
+  navbar.addEventListener("change",audioBar);
   navbar.addEventListener("mousedown", md);
 	navbar.addEventListener("mouseup", mu);
   volumenbar.addEventListener("mousemove", volumen_set);
