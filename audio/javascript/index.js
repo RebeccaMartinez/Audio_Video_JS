@@ -27,8 +27,6 @@ function initialize () {
 
 window.onload = initialize; //Lo que hace esta línea es asegurar que el HTML está cargado completamente. Así nos ahorramos errores al llamar a los elementos del HTML.
 
-//función que obtiene el fichero del campo de texto, se lo asigna al elemento de audio e inicia la reproducción
-
 
 //Función que inicia y pausa el audio
 function playPausa() {
